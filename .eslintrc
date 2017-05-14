@@ -1,0 +1,26 @@
+{
+    "rules": {
+        "camelcase": "error",
+        "curly": "error",
+		"eol-last": ["error", "always"],
+        "indent": ["error", "tab"],
+        "keyword-spacing": ["error", {
+            "before": true
+        }],
+        "no-console": ["error", {
+            "allow": ["warn", "error"]
+        }],
+        "no-trailing-spaces": "error",
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"],
+        "space-before-blocks": ["error", {
+            "functions": "always",
+            "keywords": "always"
+        }],
+        "space-before-function-paren": ["error", {
+            "anonymous": "always",
+            "named": "never",
+            "asyncArrow": "ignore"
+        }]
+    }
+}
